@@ -3,7 +3,7 @@
 %define	version	0.3.1
 %define	release	%mkrel 7
 
-Summary:	File::Edit for inplace-editing of files.
+Summary:	File::Edit for inplace-editing of files
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
