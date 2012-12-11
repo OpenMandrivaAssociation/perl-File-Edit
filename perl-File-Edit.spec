@@ -47,3 +47,34 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/*/*
 
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.3.1-10mdv2010.0
++ Revision: 430450
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 0.3.1-9mdv2009.0
++ Revision: 256877
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 0.3.1-7mdv2008.1
++ Revision: 135841
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - fix summary-ended-with-dot
+
+
+* Sun Jan 14 2007 Olivier Thauvin <nanardon@mandriva.org> 0.3.1-7mdv2007.0
++ Revision: 108533
+- rebuild
+
+  + Guillaume Rousse <guillomovitch@mandriva.org>
+    - Import perl-File-Edit
+
+* Thu Feb 26 2004 Olivier Thauvin <thauvin@aerov.jussieu.fr> 0.3.1-6mdk
+- rebuild
+- Own dir
+
