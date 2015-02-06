@@ -1,7 +1,7 @@
 %define	module	File-Edit
 %define	name	perl-%{module}
 %define	version	0.3.1
-%define release	11
+%define release	12
 
 Summary:	File::Edit for inplace-editing of files
 Name:		%{name}
