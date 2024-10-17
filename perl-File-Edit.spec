@@ -10,7 +10,7 @@ Release:	%{release}
 License:	GPL or Artistic
 Group:		Development/Perl
 Source0:	%{module}-%{version}.tar.bz2
-Url:		http://www.cpan.org
+Url:		https://www.cpan.org
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot/
 Buildrequires:	perl-devel
 Requires:	perl 
