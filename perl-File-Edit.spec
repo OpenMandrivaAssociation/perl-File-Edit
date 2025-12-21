@@ -12,6 +12,7 @@ Group:		Development/Perl
 Source0:	%{module}-%{version}.tar.bz2
 Url:		https://www.cpan.org
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot/
+BuildRequires:	make
 Buildrequires:	perl-devel
 Requires:	perl 
 Buildarch:	noarch
